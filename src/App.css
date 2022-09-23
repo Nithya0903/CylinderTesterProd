@@ -1,0 +1,31 @@
+@import '~antd/dist/antd.css';
+*{
+    font-family: "Times New Roman", Times, serif;
+}
+.ant-menu-overflow {
+    display: flex;
+    justify-content: center;
+}
+ .ant-form-item {
+  margin-bottom: 5px;
+}
+.site-layout {
+    padding: 20px 50px;
+    /* background-color: white; */
+}
+
+.site-layout-background {
+    padding: 10px;
+    /* background-color: white; */
+}
+ .ant-table table {
+    width: 100%;
+    text-align: left;
+    display: block;
+    border-radius: 2px 2px 0 0;
+    border-width: 10px;
+    border-collapse: separate;
+    overflow-x: scroll;
+    border-spacing: 0;
+    font-size: 18px;
+}
